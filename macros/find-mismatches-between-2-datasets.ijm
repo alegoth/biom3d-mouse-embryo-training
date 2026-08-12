@@ -6,8 +6,8 @@ if (dir == 0) {
 }
 dir = dir + File.separator;
 
-oridir = dir + "ori";
-segdir = dir + "seg";
+oridir = dir + "raw";
+segdir = dir + "groundtruth";
 
 orilist = getFileList(oridir);
 seglist = getFileList(segdir);
